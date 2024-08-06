@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/menu.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/src/button.css">
+    <link rel="stylesheet" href="/src/skill.css">
+    <link rel="stylesheet" href="/src/index.css">
+    <!-- Adicione o ícone para iOS -->
+    <link rel="apple-touch-icon" href="/img/Lucas.png">
+    <!-- Adicione o ícone para Android -->
+    <link rel="icon" type="image/png" href="/img/Lucas.png">
+    <!-- Adicione o ícone da lupa do Google -->
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-mQ93TSkzF9PS5mSo5syA6ACZ1mZj8j9kcfHDLUE8zRxoqicq1uN16eV5vl4omcR6Lhp0VQF3z/Bkgwwa2k6A0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/cs/style.css2?family=Oswald:wght@200..700&display=swap">
+    <title>Lucas Barbosa da silva </title>
+</head>
+<body>
+<!--Menu drop donw -->
+  <nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul>
+      
+      <li><a href='/home.html'> <i class="bi bi-arrow-90deg-up"></i> Lucas <i class="bi bi-arrow-90deg-left"></i> </a></li>
+      
+      <li><a href='#'>languages <i class="bi bi-translate"></i> + </a>
+        <ul class='sub-menus'>
+          <li><a href='/tx/ingles.html'>   <img src="/img/OIP-removebg-preview.png" alt="Inglês" class="emoji-image"> English</a></li>
+          <li><a href='http://'>   <img src="/img/flag-japan_1f1ef-1f1f5.png" alt="Japonês" class="emoji-image"> Japanese</a></li>
+        </ul>
+      </li>
+      <li><a href='#'>contact +</a>
+        <ul class='sub-menus'>
+          <li><a href='http://lucasraphael332@gmail.com'> Gmail <i class="bi bi-envelope-at"></i> </a></li>
+          <li><a href='https://www.linkedin.com/in/lucasbarbosa332'>Linkedin <i class="bi bi-linkedin"></i></a></li>
+          <li><a href='https://github.com/Lucasbarbosa332'>Gituhub <i class="bi bi-github"></i> </a></li>
+          <li><a href='https://wa.me/31998525083'>WhatsApp <i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+      </li>
+      <li><a href='https://docs.google.com/document/d/19DRFvJNE_nqDyCBU-U1SCYt-uD84tBHR2p8WPXKBziQ/edit?usp=sharing'>
+        <button class="buttonDownload">Download CV</button></a>
+    </ul>
+  </nav>
+ <!--Menu drop donw -->
+  
+
+  <!--Menu spider man -->
+  <header>
+  <main>
+    <div class="banner">
+        <h5> Innovation and creativity.</h5>
+        <div>
+            <h1 class="left">LUCAS DEV FULL STACK. </h1>
+            <h1 class="right"> welcome ! </h1>
+        </div>
+        <h4> Available to
+           
+            <br> Free lancer 
+        </h4>
+        <button> <a href="#contatos"> Get in touch </a></button>
+
+        <canvas id="dotsCanvas"></canvas>
+    </div>
+</main>    
+</header>
+<!--Menu spider man -->
+
+<!--sobre mim -->
+<section id="sobre-mim">
+
+  <style>
+        
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #D2D2D2;
+        background-image:
+        repeating-linear-gradient(
+            to right, transparent 0 100px,
+            #25283b22 100px 101px
+        ),
+        repeating-linear-gradient(
+            to bottom, transparent 0 100px,
+            #25283b22 100px 101px
+        );
+    }
+    
+    body::before{
+        position: absolute;
+        width: min(1400px, 90vw);
+        top: 10%;
+        left: 50%;
+        height: 90%;
+        transform: translateX(-50%);
+        content: '';
+        background-image: url(images/bg.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        pointer-events: none;
+    }
+</style>
+<link rel="stylesheet" href="/src/eu.css">
+</head>
+<body>
+
+<div class="banner">
+    <div class="slider" style="--quantity: 10">
+        <div class="item" style="--position: 1"><img src="/image/Progamador_1_-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 2"><img src="/image/Progamador_2-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 3"><img src="/image/Progamador_3-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 4"><img src="/image/Progamador_4-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 5"><img src="/image/Progamador_5-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 6"><img src="/image/Progamador_6-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 7"><img src="/image/Progamador_7-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 8"><img src="/image/Progamador_8-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 9"><img src="/image/Progamador_10-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 10"><img src="/image/Progamador_10-removebg-preview.png" alt=""></div>
+    </div>
+    <div class="content">
+        <h1 data-content="Quem sou eu?">
+            Who am I ?
+        </h1>
+        <div class="author">
+            <h2>Lucas Barbosa da silva  </h2>
+            <p><b>Web full stack</b></p>
+            <p>  I'm 22 years old, currently studying Computer Science and I'm in the second semester. I work as a Full Stack developer, in front-end and back-end, and I'm looking for job opportunities.
+         </p>
+        </div>
+        <div class="model"></div>
+    </div>
+</div>
+
+</section>
+      <!-- Sobre mim-->
+          
+  
+       <!--Hard skill -->
+<section id="hard-skills">
+  <h2>Hard Skills</h2>
+  <p></p>
+       
+  <section class="curiosidades">
+    <div class="container"> </div>
+      <h3> Skills </h3>
+      <p> </p>
+      <div class="cards">
+          <!--card item 1-->
+          <div class="card-item">
+              <img src="" alt="">
+              <p class="nome-user"> Front-end <br> <i class="bi bi-pc-display-horizontal"></i> </p>
+              <p class="curiosidades-user">
+                 User Interface Development. <br>
+                 Working with HTML and CSS and Frameworks. <br>
+                 Programming with JavaScript.<br>
+                 Optimization and Performance.<br>
+                 Testing and Debugging.<br>
+                 Collaboration with Designers and Developers.<br>
+                 Maintenance and Updates.<br>
+                 Accessibility and Usability.<br>
+                 Version Control.<br>
+              </p>
+          </div>
+      <!--end card item1-->     
+      <div class="card-item">
+          <img src="" alt="">
+          <p class="nome-user">Back-end <br> <i class="bi bi-motherboard"></i> </p>
+          <p class="curiosidades-user">
+            Server Logic Development.<br>
+            Working with Databases.<br>
+            API Development (Application Programming Interface).<br>
+            Authentication and Authorization Management.<br>
+            Integration with External Services.<br>
+            Optimization and Performance.<br>
+            Security.<br>
+            Testing and Debugging.<br>
+            Collaboration with Front-End Developers.<br>
+            Version Control.<br>
+          </p>
+      </div>
+      <!--card item 1-->
+      <div class="card-item">
+          <img src="" alt="">
+          <p class="nome-user">Database <br><i class="bi bi-database-fill-gear"></i></p>
+          <p class="curiosidades-user">
+            Database Design and Modeling.<br>
+            Creating and Maintaining Databases.<br>
+            Querying and Manipulating Data.<br>
+            Optimization and Performance.<br>
+            Data Integration.<br>
+            Documentation and Reporting.<br>
+            Version and Change Management.<br>
+            Working with Different Types of Databases.<br>
+          </p>
+      </div>
+  </div>      
+  <h3> Technologies I have the ability to work with </h3>
+</section>
+<!--curiosidaes end-->
+
+  <div class="containe">
+    <div class="box">
+      <p class="title">
+       <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="">
+      </p>
+    </div>
+  
+    <div class="box">
+      <p class="title">
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+       <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="">
+      </p>
+    </div>
+  </div>
+    
+  <div class="containe">
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="">
+      </p>
+    </div>
+  
+    <div class="box">
+      <p class="title">
+      <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+      <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="">
+      </p>
+    </div>
+  </div>
+
+  <div class="containe">
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="">
+      </p>
+    </div>
+  
+    <div class="box">
+      <p class="title">
+      <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="">
+      </p>
+    </div>
+    
+  </div>
+</section>
+  <!--Hard skill -->
+  
+  <!-- soft skill -->
+<section id="soft-skills">
+  <h2>Soft Skills</h2>
+  <p></p>
+  
+
+
+  <div class="cardsi">
+    <div class="card red">
+        <p class="tip">Communication</p>
+        <p class="second-text"><i class="bi bi-chat-left"></i></p>
+    </div>
+    <div class="card blue">
+        <p class="tip">intelligence <br> emotional</p>
+        <p class="second-text"><i class="bi bi-heart-fill"></i></p>
+    </div>
+    <div class="card green">
+        <p class="tip">Teamwork  </p>
+        <p class="second-text"><i class="bi bi-people"></i></p>
+    </div>
+    <div class="card purple">
+      <p class="tip">Agility</p>
+      <p class="second-text"><i class="bi bi-rocket-takeoff"></i></p>
+  </div>
+  <div class="card grenn">
+    <p class="tip"> intermediate japanese  </p>
+    <p class="second-text"><i class="bi bi-chat-quote-fill"></i></p>
+</div>
+<div class="card yellow">
+  <p class="tip"> Fluent English </p>
+  <p class="second-text"><i class="bi bi-chat-quote"></i></p>
+</div>
+  
+</div>
+
+<!-- soft skill -->
+
+
+</section>
+
+<section id="projetos">
+    <h2>Projects</h2>
+    <p> </p>
+    
+      <!--projetos 1-->
+        <div class="projetos">
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/Sief.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo">Integrated Financial Education System </h6>
+              <p class="projeto__texto">
+                Design of a responsive landing page with a web application integrated into the website <Br>
+                    The project has a MySQL database for the registration form and video lessons. <Br>
+                    Made in <br>
+                <i class="bi bi-filetype-html"></i>  <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-sql"></i> <i class="bi bi-filetype-php"></i> <i class="bi bi-filetype-js"></i>  
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://sief-integrated-financial-education.netlify.app/" class="projeto__botao-link">
+                  <button>View project</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/-.I.E.F" class="projeto__botao-link">
+                  <button>See more about </button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/Login react.jpeg" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> React Login Form </h6>
+              <p class="projeto__texto"> Simple login form using react js with NPM create-vite is not deployed to view this project you can download the file directly to your computer and open it in an IDE, <br> then you open the output terminal of your IDE using the code npm intall you will download the dependencies necessary for this project to work being the node modules folder <br> after the folder is installed you can give an npm star to start the project then an npm run dev and this will start the project on your local host.
+                <br> Made in <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-js"></i>  <i class="bi bi-filetype-jsx"></i>
+              </p>   
+              <div class="projeto__botoes">
+                <a href="https://github.com/Lucasbarbosa332/Login" class="projeto__botao-link">
+                  <button> View project</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Login" class="projeto__botao-link">
+                  <button>See more about</button>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/poem na mesa.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> Table </h6>
+              <p class="projeto__texto"> Landing page for a restaurant in Minas Gerais with some animations and fully responsive
+                <br> Made in <br>
+                  <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-js"></i>
+
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://poemnamesa.netlify.app/" class="projeto__botao-link">
+                  <button>View project </button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/PoemNaMesa" class="projeto__botao-link">
+                  <button>See more about </button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
+       
+        </div>
+        <!-- poejtos 1 -->
+        <!-- poejtos 2 -->
+        <div class="projetos">
+          <div class="projeto">
+            <div lass="projeto__content">
+              <img src="/images/grille.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo">Grille Restaurant </h6>
+              <p class="projeto__texto"> French Restaurant Landing Page with several animations and interactive elements
+                <br> Made in <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-js"></i>
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://grllirestaurante.netlify.app/" class="projeto__botao-link">
+                  <button>View project</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Grille-Restaurante" class="projeto__botao-link">
+                  <button>See more about </button>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/3d img.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> History of Dragons </h6>
+              <p class="projeto__texto"> A responsive landing page with an interactive image carousel with various photo animations, a responsive drop down menu, a home screen with 3D animation
+                <br> Made in <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i>
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://akumanodragon.netlify.app/" class="projeto__botao-link">
+                  <button>View project</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Landing-Page-3D" class="projeto__botao-link">
+                  <button>See more about </button>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/juice.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo">Landing Page 3D</h6>
+              <p class="projeto__texto">An interactive landing page with great visual effects, fully in 3D
+                <br> Made in <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i>
+              </p>
+             
+              <div class="projeto__botoes">
+                <a href="https://juice3d.netlify.app/" class="projeto__botao-link">
+                  <button>View project</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Juice3D/tree/main" class="projeto__botao-link">
+                  <button>See more about</button>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/Food peak.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo">Food Peak </h6>
+              <p class="projeto__texto"> A responsive landing page about a burger joint with an interactive menu
+                <br> Made in <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i>
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://foodpeak.netlify.app/" class="projeto__botao-link">
+                  <button>View project</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/FoodPeak" class="projeto__botao-link">
+                  <button>See more about </button>
+                </a>
+              </div>
+            </div>
+          </div>                                     
+        </div>
+         <!-- poejtos 2 -->
+
+</section>
+            <!--Button -->
+            <button class="ui-btn">
+              <span>
+                View more
+              </span>
+            </button>
+            <!--Button -->   
+<section id="games">
+    <h2> Games <i class="fa fa-gamepad"></i></h2>
+    <p></p>
+   <!--projetos 1-->
+        <div class="projetos">
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/snake space.jpeg" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> Space snake  </h6>
+              <p class="projeto__texto"> snake game with 3 difficulty levels with score ranking table 
+                <br>Made in <br>
+                <i class="bi bi-filetype-html"></i>  <i class="bi bi-filetype-css"></i>  <i class="bi bi-filetype-js"></i>  
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://spacesnake.netlify.app/" class="projeto__botao-link">
+                  <button>View project</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/SnakeSpacial" class="projeto__botao-link">
+                  <button>See more about </button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/Bombermen .png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> Dangerous Mystery</h6>
+              <p class="projeto__texto"> mini game inspired by bomberman where the objective is to escape the maze full of monsters and dangers 
+                <br>Made in <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-scss"></i>  <i class="bi bi-filetype-jsx"></i>  
+              </p>   
+              <div class="projeto__botoes">
+                <a href="https://deft-sundae-acee9c.netlify.app/" class="projeto__botao-link">
+                  <button> View project</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Escapedageus" class="projeto__botao-link">
+                  <button>See more about</button>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/Captura de tela 2024-08-05 133106.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> The mine </h6>
+              <p class="projeto__texto"> Terraria-like game where you escape from a cave
+                <br> Made in <br>
+                  <i class="bi bi-filetype-html"></i>  <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-scss"></i>
+
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://vermillion-kashata-0c9d83.netlify.app/" class="projeto__botao-link">
+                  <button>View project </button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/TheMIne" class="projeto__botao-link">
+                  <button>See more about </button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/empilhador .png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> Tower mout </h6>
+              <p class="projeto__texto"> Build a tower of blocks without letting the blocks fall
+                <br> Made in <br>
+                  <i class="bi bi-filetype-html"></i>  <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-scss"></i>
+
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://candid-lamington-7a569b.netlify.app/" class="projeto__botao-link">
+                  <button>View project </button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Minigame" class="projeto__botao-link">
+                  <button>See more about </button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
+       
+        </div>
+        <!-- poejtos 1 -->
+  </section>
+           <!--Button -->
+           <button class="ui-btn">
+             <span>
+                View more
+             </span>
+           </button>
+           <!--Button -->    
+<section id="contatos">
+  
+    <h4>Contacts</h4>
+    <p></p>
+          
+    <section class="formulario">
+      <h2>Contacts</h2>
+      <form action="https://api.staticforms.xyz/submit" method="post">
+          <label>Name</label>
+          <input type="text" name="name" placeholder="Type your name" autocomplete="off" required>
+          <label>Email</label>
+          <input type="email" name="email" placeholder="Type your e-mail" autocomplete="off" required>
+          <label>Message</label>
+          <textarea name="message" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+          <button type="submit"> Enter</button>
+
+          <input type="hidden" name="accessKey" value="e7bb4d30-f3e5-4c1f-86bb-b7f6ced8712b">
+          <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+      </form>
+  </section>
+       
+
+
+</section>
+
+<script>
+    function scrollToSection(sectionId) {
+        document.querySelector(sectionId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
+</body>
+
+        <script src="/components/menu.js"></script>
+        <script src="/components/index.js"></script>
+         <script src="/components/ingles.js"></script>
+
+</body>
+</html>

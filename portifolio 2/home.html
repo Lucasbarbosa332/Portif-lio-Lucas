@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/menu.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/src/button.css">
+    <link rel="stylesheet" href="/src/skill.css">
+    <link rel="stylesheet" href="/src/index.css">
+    <!-- Adicione o ícone para iOS -->
+    <link rel="apple-touch-icon" href="/img/Lucas.png">
+    <!-- Adicione o ícone para Android -->
+    <link rel="icon" type="image/png" href="/img/Lucas.png">
+    <!-- Adicione o ícone da lupa do Google -->
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-mQ93TSkzF9PS5mSo5syA6ACZ1mZj8j9kcfHDLUE8zRxoqicq1uN16eV5vl4omcR6Lhp0VQF3z/Bkgwwa2k6A0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/cs/style.css2?family=Oswald:wght@200..700&display=swap">
+    <title>Lucas Barbosa da silva </title>
+</head>
+<body>
+<!--Menu drop donw -->
+  <nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <ul>
+      
+      <li><a href='/home.html'> <i class="bi bi-arrow-90deg-up"></i> Lucas <i class="bi bi-arrow-90deg-left"></i> </a></li>
+      
+      <li><a href='#'>idiomas <i class="bi bi-translate"></i> + </a>
+        <ul class='sub-menus'>
+          <li><a href='/tx/ingles.html'>   <img src="/img/OIP-removebg-preview.png" alt="Inglês" class="emoji-image"> Inglês</a></li>
+          <li><a href='/tx/japones.html'>   <img src="/img/flag-japan_1f1ef-1f1f5.png" alt="Japonês" class="emoji-image"> Japonês</a></li>
+        </ul>
+      </li>
+      <li><a href='#'>contato +</a>
+        <ul class='sub-menus'>
+          <li><a href='http://lucasraphael332@gmail.com'> Gmail <i class="bi bi-envelope-at"></i> </a></li>
+          <li><a href='https://www.linkedin.com/in/lucasbarbosa332'>Linkedin <i class="bi bi-linkedin"></i></a></li>
+          <li><a href='https://github.com/Lucasbarbosa332'>Gituhub <i class="bi bi-github"></i> </a></li>
+          <li><a href='https://wa.me/31998525083'>WhatsApp <i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+      </li>
+      <li><a href='https://docs.google.com/document/d/19DRFvJNE_nqDyCBU-U1SCYt-uD84tBHR2p8WPXKBziQ/edit?usp=sharing'>
+        <button class="buttonDownload">Download CV</button></a>
+    </ul>
+  </nav>
+ <!--Menu drop donw -->
+  
+
+  <!--Menu spider man -->
+  <header>
+  <main>
+    <div class="banner">
+        <h5> Inovação e criatividade. </h5>
+        <div>
+            <h1 class="left">LUCAS DEV FULL STACK. </h1>
+            <h1 class="right"> seja bem vindo ! </h1>
+        </div>
+        <h4> Disponivel para
+           
+            <br> Free lancer 
+        </h4>
+        <button> <a href="#contatos"> Entrar em contato</a></button>
+
+        <canvas id="dotsCanvas"></canvas>
+    </div>
+</main>    
+</header>
+<!--Menu spider man -->
+
+<!--sobre mim -->
+<section id="sobre-mim">
+
+  <style>
+        
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #D2D2D2;
+        background-image:
+        repeating-linear-gradient(
+            to right, transparent 0 100px,
+            #25283b22 100px 101px
+        ),
+        repeating-linear-gradient(
+            to bottom, transparent 0 100px,
+            #25283b22 100px 101px
+        );
+    }
+    
+    body::before{
+        position: absolute;
+        width: min(1400px, 90vw);
+        top: 10%;
+        left: 50%;
+        height: 90%;
+        transform: translateX(-50%);
+        content: '';
+        background-image: url(images/bg.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        pointer-events: none;
+    }
+</style>
+<link rel="stylesheet" href="/src/eu.css">
+</head>
+<body>
+
+<div class="banner">
+    <div class="slider" style="--quantity: 10">
+        <div class="item" style="--position: 1"><img src="/image/Progamador_1_-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 2"><img src="/image/Progamador_2-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 3"><img src="/image/Progamador_3-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 4"><img src="/image/Progamador_4-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 5"><img src="/image/Progamador_5-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 6"><img src="/image/Progamador_6-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 7"><img src="/image/Progamador_7-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 8"><img src="/image/Progamador_8-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 9"><img src="/image/Progamador_10-removebg-preview.png" alt=""></div>
+        <div class="item" style="--position: 10"><img src="/image/Progamador_10-removebg-preview.png" alt=""></div>
+    </div>
+    <div class="content">
+        <h1 data-content="Quem sou eu?">
+            Quem sou eu ?
+        </h1>
+        <div class="author">
+            <h2>Lucas Barbosa da silva  </h2>
+            <p><b>Web full stack</b></p>
+            <p>  Tenho 22 anos, atualmente curso Ciência da Computação e estou no segundo semestre. Atuo como desenvolvedor Full Stack,em front-end e back-end, e estou em busca de oportunidades de trabalho.
+            </p>
+        </div>
+        <div class="model"></div>
+    </div>
+</div>
+
+</section>
+      <!-- Sobre mim-->
+          
+  
+       <!--Hard skill -->
+<section id="hard-skills">
+  <h2>Hard Skills</h2>
+  <p></p>
+       
+  <section class="curiosidades">
+    <div class="container"> </div>
+      <h3>Habilidades </h3>
+      <p> </p>
+      <div class="cards">
+          <!--card item 1-->
+          <div class="card-item">
+              <img src="" alt="">
+              <p class="nome-user"> Front-end <br> <i class="bi bi-pc-display-horizontal"></i> </p>
+              <p class="curiosidades-user">
+                Desenvolvimento de Interfaces de Usuário. <br>
+                Trabalhar com HTML e CSS e Frameworks. <br>
+                Programação com JavaScript.<br>
+                Otimização e Performance.<br>
+                Testes e Depuração.<br>
+                Colaboração com Designers e Desenvolvedores.<br>
+                Manutenção e Atualização.<br>
+                Acessibilidade e Usabilidade.<br>
+                Controle de Versão.<br>
+              </p>
+          </div>
+      <!--end card item1-->     
+      <div class="card-item">
+          <img src="" alt="">
+          <p class="nome-user">Back-end <br> <i class="bi bi-motherboard"></i> </p>
+          <p class="curiosidades-user">
+            Desenvolvimento de Lógica de Servidor.<br>
+            Trabalho com Bancos de Dados.<br>
+            Desenvolvimento de APIs (Interface de Programação de Aplicações).<br>
+            Gerenciamento de Autenticação e Autorização.<br>
+            Integração com Serviços Externos.<br>
+            Otimização e Performance.<br>
+            Segurança.<br>
+            Testes e Depuração.<br>
+            Colaboração com Desenvolvedores Front-End.<br>
+            Controle de Versão.<br>
+          </p>
+      </div>
+      <!--card item 1-->
+      <div class="card-item">
+          <img src="" alt="">
+          <p class="nome-user">Banco de dados <br><i class="bi bi-database-fill-gear"></i></p>
+          <p class="curiosidades-user">
+            Design e Modelagem de Banco de Dados.<br>
+            Criação e Manutenção de Bancos de Dados.<br>
+            Consultas e Manipulação de Dados.<br>
+            Otimização e Performance.<br>
+            Integração de Dados.<br>
+            Documentação e Relatórios.<br>
+            Gerenciamento de Versão e Mudanças.<br>
+            Trabalho com Diferentes Tipos de Bancos de Dados.<br>
+          </p>
+      </div>
+  </div>      
+  <h3> Tecnologias com as quais tenho habilidade para trabalhar </h3>
+</section>
+<!--curiosidaes end-->
+
+  <div class="containe">
+    <div class="box">
+      <p class="title">
+       <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="">
+      </p>
+    </div>
+  
+    <div class="box">
+      <p class="title">
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+       <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="">
+      </p>
+    </div>
+  </div>
+    
+  <div class="containe">
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="">
+      </p>
+    </div>
+  
+    <div class="box">
+      <p class="title">
+      <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+      <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="">
+      </p>
+    </div>
+  </div>
+
+  <div class="containe">
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white" alt="">
+      </p>
+    </div>
+    <div class="box">
+      <p class="title">
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="">
+      </p>
+    </div>
+  
+    <div class="box">
+      <p class="title">
+      <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="">
+      </p>
+    </div>
+    
+  </div>
+</section>
+  <!--Hard skill -->
+  
+  <!-- soft skill -->
+<section id="soft-skills">
+  <h2>Soft Skills</h2>
+  <p></p>
+  
+
+
+  <div class="cardsi">
+    <div class="card red">
+        <p class="tip">Comunicação</p>
+        <p class="second-text"><i class="bi bi-chat-left"></i></p>
+    </div>
+    <div class="card blue">
+        <p class="tip">inteligencia <br> emocional </p>
+        <p class="second-text"><i class="bi bi-heart-fill"></i></p>
+    </div>
+    <div class="card green">
+        <p class="tip">Trabalho em <br> equipe  </p>
+        <p class="second-text"><i class="bi bi-people"></i></p>
+    </div>
+    <div class="card purple">
+      <p class="tip">Agilidade</p>
+      <p class="second-text"><i class="bi bi-rocket-takeoff"></i></p>
+  </div>
+  <div class="card grenn">
+    <p class="tip">japonês intermediário  </p>
+    <p class="second-text"><i class="bi bi-chat-quote-fill"></i></p>
+</div>
+<div class="card yellow">
+  <p class="tip"> Fluência  Inglês </p>
+  <p class="second-text"><i class="bi bi-chat-quote"></i></p>
+</div>
+  
+</div>
+
+<!-- soft skill -->
+
+
+</section>
+
+<section id="projetos">
+    <h2>Projetos</h2>
+    <p>Esta é a seção de projetos.</p>
+    
+      <!--projetos 1-->
+        <div class="projetos">
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/Sief.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo">Sistema Integrado Educação Financeira </h6>
+              <p class="projeto__texto">
+                Projeto de uma landing page responsiva com um web aplicativo inetgrado ao site <Br>
+                Projeto conta com banco de dados em my sql para formulario de resgistro e video aulas. <Br>
+                Feito em <br>
+                <i class="bi bi-filetype-html"></i>  <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-sql"></i> <i class="bi bi-filetype-php"></i> <i class="bi bi-filetype-js"></i>  
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://sief-integrated-financial-education.netlify.app/" class="projeto__botao-link">
+                  <button>Ver projeto</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/-.I.E.F" class="projeto__botao-link">
+                  <button>Ver mais sobre </button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/Login react.jpeg" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> Formulario de Login React </h6>
+              <p class="projeto__texto"> Formulario de login simples usando react js com NPM create-vite nao esta em deploy para pode vizulaizar esse projeto voce pode baixar o arquivo direto no seu computador e abrir em uma IDE, <br> depois voce abre o terminal de saida do seu IDE usando o codigo npm intall voce vai baixar as dependencias necessarias para esse projeto funcionar sendo ela a pasta node modules <br>depois da pasta instalada voce pode dar um npm star para iniciar o projeto depois um npm run dev e isso ira iniciar o projeto em seu local host.
+                <br>Feito em  <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-js"></i>  <i class="bi bi-filetype-jsx"></i>
+              </p>   
+              <div class="projeto__botoes">
+                <a href="https://github.com/Lucasbarbosa332/Login" class="projeto__botao-link">
+                  <button> Ver codigo Git</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Login" class="projeto__botao-link">
+                  <button>Ver código Git</button>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/poem na mesa.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo">Poem na mesa</h6>
+              <p class="projeto__texto"> Landing page de um restaurante mineiro com algumas animações e totalmente responsiva 
+                  <br> Feito em <br>
+                  <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-js"></i>
+
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://poemnamesa.netlify.app/" class="projeto__botao-link">
+                  <button>Ver Projeto </button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/PoemNaMesa" class="projeto__botao-link">
+                  <button>Ver mais sobre </button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
+       
+        </div>
+        <!-- poejtos 1 -->
+        <!-- poejtos 2 -->
+        <div class="projetos">
+          <div class="projeto">
+            <div lass="projeto__content">
+              <img src="/images/grille.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo">Grille Restaurante </h6>
+              <p class="projeto__texto"> Landing page de Restaurante Frances com varias animações e varios elementos interativos 
+                <br> Feito em  <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-js"></i>
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://grllirestaurante.netlify.app/" class="projeto__botao-link">
+                  <button>Ver projeto</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Grille-Restaurante" class="projeto__botao-link">
+                  <button>Ver mais sobre </button>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/3d img.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> Historia dos Dragoões </h6>
+              <p class="projeto__texto"> Uma landing page responsiva com um carrocel de imagens interativas com varias animações de foto um menu Drop donw responsivo uma tela home com animaçãoe me 3d
+                <br> Feito em <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i>
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://akumanodragon.netlify.app/" class="projeto__botao-link">
+                  <button>Ver projeto</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Landing-Page-3D" class="projeto__botao-link">
+                  <button>Ver mais sobre </button>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/juice.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo">Landing Page 3D</h6>
+              <p class="projeto__texto">Uma Landing page interativa com otimos efeitos visuais totalmente em 3D
+                <br>   Feito em  <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i>
+              </p>
+             
+              <div class="projeto__botoes">
+                <a href="https://juice3d.netlify.app/" class="projeto__botao-link">
+                  <button>Ver projeto</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Juice3D/tree/main" class="projeto__botao-link">
+                  <button>Ver mais sobre </button>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/Food peak.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo">Food Peak </h6>
+              <p class="projeto__texto"> Uma Home landing page sobre hamburgueria, responsiva e com menu interativo
+                <br> Feito em <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-css"></i>
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://foodpeak.netlify.app/" class="projeto__botao-link">
+                  <button>Ver projeto</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/FoodPeak" class="projeto__botao-link">
+                  <button>Ver mais sobre </button>
+                </a>
+              </div>
+            </div>
+          </div>                                     
+        </div>
+         <!-- poejtos 2 -->
+
+</section>
+            <!--Button -->
+            <button class="ui-btn">
+              <span>
+                ver mais 
+              </span>
+            </button>
+            <!--Button -->   
+<section id="games">
+    <h2>Jogos <i class="fa fa-gamepad"></i></h2>
+    <p></p>
+   <!--projetos 1-->
+        <div class="projetos">
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/snake space.jpeg" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> Cobra espacial  </h6>
+              <p class="projeto__texto"> Jogo da cobrinha com 3 niveis de dificuldades com tabela de raking de pontuação 
+                <br>Feito em <br>
+                <i class="bi bi-filetype-html"></i>  <i class="bi bi-filetype-css"></i>  <i class="bi bi-filetype-js"></i>  
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://spacesnake.netlify.app/" class="projeto__botao-link">
+                  <button>Ver projeto</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/SnakeSpacial" class="projeto__botao-link">
+                  <button>Ver mais sobre </button>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/Bombermen .png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> Dangerous Mystery</h6>
+              <p class="projeto__texto"> mini game inspirado em bomberman onde o obejtivo e escapar do labirinto cheio de monstros e perigos 
+                 <br>Feito em  <br>
+                <i class="bi bi-filetype-html"></i> <i class="bi bi-filetype-scss"></i>  <i class="bi bi-filetype-jsx"></i>  
+              </p>   
+              <div class="projeto__botoes">
+                <a href="https://deft-sundae-acee9c.netlify.app/" class="projeto__botao-link">
+                  <button> Ver codigo Git</button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Escapedageus" class="projeto__botao-link">
+                  <button>Ver código Git</button>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/Captura de tela 2024-08-05 133106.png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> The mine </h6>
+              <p class="projeto__texto"> Jogo tipo Terraria onde você escapa de uma caverna
+                <br> Feito em <br>
+                  <i class="bi bi-filetype-html"></i>  <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-scss"></i>
+
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://vermillion-kashata-0c9d83.netlify.app/" class="projeto__botao-link">
+                  <button>Ver Projeto </button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/TheMIne" class="projeto__botao-link">
+                  <button>Ver mais sobre </button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
+          <div class="projeto">
+            <div class="projeto__content">
+              <img src="/images/empilhador .png" alt="Projeto 1" class="projeto__imagem">
+              <h6 class="projeto__titulo"> Tower mout </h6>
+              <p class="projeto__texto"> Monte uma torre de blocos sem deixar que os blocos caia 
+                  <br> Feito em <br>
+                  <i class="bi bi-filetype-html"></i>  <i class="bi bi-filetype-css"></i> <i class="bi bi-filetype-scss"></i>
+
+              </p>
+              <div class="projeto__botoes">
+                <a href="https://candid-lamington-7a569b.netlify.app/" class="projeto__botao-link">
+                  <button>Ver Projeto </button>
+                </a>
+                <a href="https://github.com/Lucasbarbosa332/Minigame" class="projeto__botao-link">
+                  <button>Ver mais sobre </button>
+                </a>
+               
+              </div>
+            </div>
+          </div>
+       
+        </div>
+        <!-- poejtos 1 -->
+  </section>
+           <!--Button -->
+           <button class="ui-btn">
+             <span>
+               ver mais 
+             </span>
+           </button>
+           <!--Button -->    
+<section id="contatos">
+  
+    <h4>Contatos</h4>
+    <p></p>
+          
+    <section class="formulario">
+      <h2>Contato</h2>
+      <form action="https://api.staticforms.xyz/submit" method="post">
+          <label>Nome</label>
+          <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+          <label>Gmail</label>
+          <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+          <label>Mensagem</label>
+          <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+
+          <input type="hidden" name="accessKey" value="e7bb4d30-f3e5-4c1f-86bb-b7f6ced8712b">
+          <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+      </form>
+  </section>
+       
+
+
+</section>
+
+<script>
+    function scrollToSection(sectionId) {
+        document.querySelector(sectionId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
+</body>
+
+        <script src="/components/menu.js"></script>
+        <script src="/components/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+
+
+
+
+.containe {
+    overflow: auto;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .box {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    width: 100%;
+  }
+  
+  .containe:hover > :not(:hover) {
+    opacity: 0.2;
+  }
+  
+  .title {
+    width: 100%;
+    display: inline-block;
+    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin: 1rem auto;
+  }
+
+
+/*         soft skill         */ 
+.cardsi {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+.cardsi .red {
+  background-color: #007e9e;
+}
+
+.cardsi .blue {
+  background-color: #0062ff;
+}
+
+.cardsi .green {
+  background-color: #9418cd;
+}
+.cardsi .purple {
+  background-color: #00fbfb;
+}
+
+.cardsi .grenn {
+  background-color: #00fa9a;
+}
+
+.cardsi .yellow {
+  background-color: #fae900;
+}
+
+.cardsi .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 450px;
+  width: 500px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+
+
+.cardsi .card p.tip {
+  font-size: 1em;
+  font-size: 35px;
+  font-weight: 300;
+}
+.second-text i {
+  font-size: 35px; /* Ajuste o tamanho conforme necessário */
+}
+.cardsi .card p.second-text {
+  font-size: 100px;
+  font-size: .7em;
+}
+
+.cardsi .card:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.cardsi:hover > .card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+@media (max-width: 767px) {
+  .cardsi {
+    flex-direction: column; /* Muda para coluna em telas pequenas */
+    align-items: center;
+  }
+  
+  .cardsi .card {
+    width: 80%; /* Ajusta a largura dos cards em telas pequenas */
+    margin-bottom: 15px;
+  }
+}
+
+
+/*Projetos */
+
+.curiosidades h3{
+  background-color: black;
+  text-align: center;
+}
+.curiosidades p{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.curiosidades .card-item{
+  background-color: #8d8d8d;
+  margin: 15px;
+  border-radius: 14px;
+  text-align: center;
+  width: 350px;
+  transition: 0.3s;
+}
+.curiosidades .card-item img{
+  border-radius: 100%;
+  width: 80px;
+  display: block;
+  margin: 10px auto;
+}
+.curiosidades .card-item .nome-user{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+.curiosidades .card-item .curiosidades-user{
+  font-size: 15px;
+  padding: 0 15px;
+  transition: 0.3s;
+}
+.curiosidades .card-item:hover{
+  background-color: #000000;
+  margin-top: -5px;
+}
+.curiosidades .card-item:hover .nome-user,
+.curiosidades .card-item:hover .curiosidades-user{
+  color: white;
+}
+
+@media(max-width: 767px ) {
+  
+  
+  .cards{
+      display: flex;
+      justify-content: center;
+      flex-wrap:wrap ;
+  }
+  .curiosidades .card-item{
+      width: 100%;
+  }
+  
+}
+/*habilidadaes */
+
+/*projetos */
+
+.projetos {
+  
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px; /* Espaçamento entre os cards */
+  width: 100%;
+}
+
+.projeto {
+  width: 100%;
+  max-width: 800px; /* Largura máxima dos cards */
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.projeto__content {
+  position: relative;
+  padding: 20px;
+}
+
+.projeto__imagem {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.projeto__texto,
+.projeto__botoes {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-align: center;
+}
+
+.projeto__texto i {
+  font-size: 3.5em; /* Ajuste o tamanho dos ícones conforme necessário */
+  font-weight: bold; /* Deixa os ícones em negrito */
+  margin-right: 10px; /* Espaço entre os ícones */
+}
+
+
+.projeto__texto {
+  font-size: 1em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.projeto__botoes button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.projeto__botoes button:hover {
+  background-color: #0056b3;
+}
+
+/* Hover para o card */
+.projeto:hover {
+  transform: translateY(1px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.projeto:hover .projeto__imagem {
+  opacity: 0;
+}
+
+.projeto:hover .projeto__texto,
+.projeto:hover .projeto__botoes {
+  display: block;
+  opacity: 1;
+}
+
+.projeto__titulo {
+  font-size: 1.5em;
+  color: #222222; /* Azul */
+  text-align: center;
+  margin: 10px 0; /* Margem em cima e embaixo */
+  font-weight: bold;
+}
+
+
+
+/*projetos */
+

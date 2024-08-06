@@ -1,0 +1,36 @@
+rascunhos não usados 
+
+/* paletas de cores */
+
+#sobre-mim {
+    background-color: #f0f0f0;
+}
+
+#projetos {
+    background-color: #e0e0e0;
+}
+
+#games {
+    background-color: #d0d0d0;
+}
+
+#hard-skills {
+    background-color: #c0c0c0;
+}
+
+#soft-skills {
+    background-color: #b0b0b0;
+}
+
+#contatos {
+    background-color: #a0a0a0;
+}
+.emoji-image {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+background-color: #d3e6fd; /* Azul claro */
+ background-color: #4f9cf9; /* Azul mais escuro */
+
+/* paletas de cores */
